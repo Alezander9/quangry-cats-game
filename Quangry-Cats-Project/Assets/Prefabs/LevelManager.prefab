@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5390495878073485524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8937448533905311654}
+  - component: {fileID: 8659200582511599476}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8937448533905311654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390495878073485524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.700808, y: 17.866425, z: 3.0140646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8659200582511599476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390495878073485524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bf7b560fad09344ab1fc87b25d9eb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  menuButton: {fileID: 6828074172402830761, guid: 0047cebbe6c15384581b069ff1fb088b, type: 3}
+  resetButton: {fileID: 3236845495122680536, guid: ee3235b93958bc24ebe8c54187d2313a, type: 3}
+  PopupWinBG: {fileID: 5670147100953372107, guid: bbf8766613ee2db4c8dac88af36f60cb, type: 3}
+  PopupLoseBG: {fileID: 5670147100953372107, guid: 51d812b3dc6fe0b43a7e7f5c8c505f1c, type: 3}
+  popupResetButton: {fileID: 6410937400352307053, guid: bc37dee8d1cd2144e9a5ae11b987b0c7, type: 3}
+  popupMenuButton: {fileID: 6828074172402830761, guid: 0047cebbe6c15384581b069ff1fb088b, type: 3}
+  popupNextButton: {fileID: 5010894640114055465, guid: 38d391cfcc6431e449ad2971f349d32d, type: 3}
+  popupHomeButton: {fileID: 5010894640114055465, guid: 524da8500dd4c8e48a8b1f21e1b361dd, type: 3}
+  popupWin: {fileID: 280661228059977572, guid: 578dbbde7853fe5dfbe9c802ed8d03f2, type: 3}
+  popupLose: {fileID: 280661228059977572, guid: 4e8f2e262226c564e952d02e60cc7073, type: 3}
+  levelName: {fileID: 1432194464316509976, guid: 526196c4dc77cdc478290bd53f0c5da6, type: 3}
+  newCatButton: {fileID: 6410937400352307053, guid: 8997b556d309b514eb2fdb608ec0fc67, type: 3}
+  levelOngoing: 1
